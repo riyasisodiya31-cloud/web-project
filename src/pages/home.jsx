@@ -31,7 +31,7 @@ function Home() {
 
         {/* title */}
         <h1 className="title">
-          {"GALLERIA".split("").map((l, i) => (
+          {"GALLERIAS".split("").map((l, i) => (
             <span key={i} style={{ animationDelay: `${i * 0.07}s` }}>{l}</span>
           ))}
         </h1>
